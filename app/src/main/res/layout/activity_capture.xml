@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_orange_dark"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <Button
+            android:id="@+id/btnChild"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="36dp"
+            android:onClick="showChild"
+            android:text="Child : 3000"
+            android:textSize="35sp" />
+        <Button
+            android:id="@+id/btnAdult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="36dp"
+            android:onClick="showAdult"
+            android:text="ADULT : 5000"
+            android:textSize="35sp" />
+
+        <Button
+        android:id="@+id/btnOther"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="36dp"
+        android:onClick="mult"
+        android:text="Others"
+        android:textSize="35sp"
+        tools:ignore="OnClick" />
+
+        <EditText
+            android:id="@+id/tvCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:layout_marginTop="36dp"
+             android:hint="Enter Code"
+            android:textColorHint="@android:color/background_dark"
+            android:background="@color/colorPrimary"
+            android:textAlignment="center"
+            android:textSize="35sp"/>
+
+        <Button
+            android:id="@+id/btnbk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="36dp"
+            android:onClick="main"
+            android:text="Back"
+            android:textSize="35sp"
+            tools:ignore="OnClick" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
