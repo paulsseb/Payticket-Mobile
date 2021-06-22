@@ -9,12 +9,12 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class ConnectionHelper {
-    String ip="192.168.43.55";
+    String ip="SQL5092.site4now.net";
     String port="1433";
     String classes="net.sourceforge.jtds.jdbc.Driver";
-    String username="Paytiket";
-    String password="pass";
-    String DB="paytiket";
+    String username="paulsseb";
+    String password="Cn@22B2dCGW5yZ9";
+    String DB="db_a7636d_payticketdb";
     @SuppressLint("NewApi")
     public Connection CONN(){
 
